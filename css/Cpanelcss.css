@@ -1,0 +1,273 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+ 
+body{
+    background:white;
+}
+
+.top-bar{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background:#417CCA;
+    color: white;
+    box-sizing: border-box;
+} 
+.log-crud{
+    width: 90%;
+    margin-top: 20px;
+}
+.basurapng{
+   width: 20px;
+}
+
+.menu-izquierdo{
+    width: 300px;
+    height:1000px;
+    background:#CFDEF1;
+    float: left;
+    text-align: center;
+    
+}
+
+.container{
+    width: 80%;
+    height: auto; 
+    background: transparent;
+    float: left;
+    justify-content: center;
+    display: flex;
+    
+    
+    
+}  
+ 
+.container-add-events{
+    width: 80%;
+    height: 800px; 
+    padding: 10px;
+    background: white;
+    overflow-y: scroll;
+
+}
+
+.buton-gtx13{
+    margin-left: 20px;
+    background: white;
+    width: 200px; 
+    border: solid 2px #3498db;
+    padding: 5px;
+    color: #3498db;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.buton-gtx13:hover{
+    background: #2980b9;
+    color: white;
+    cursor: pointer;
+}
+.infnoexist-xf1{
+    width: 80%;
+    height: auto;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border:solid 1px #3498db;
+    color: #3498db;
+    border-radius: 5px;
+    
+}
+.title-xd2{
+    width: 100%;
+    background: #3498db;
+    padding: 10px;
+    color:red; 
+}
+.p1dxl{
+    color: #3498db;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin: 20px;
+}
+
+.lk1{
+    text-decoration: none;
+    color: white; 
+    font-weight: 600;
+    background:#CFDEF1;
+    width: 100%;
+    display: block;
+    padding:15px 0px 15px 0px;
+    border-bottom: solid 1px white;
+}
+.lk1:hover{
+    background: #F5A840;
+    border-bottom: solid 1px white;
+    color: gray;
+}
+
+
+.User-style{
+    text-align: right;
+}
+
+
+/*ESTYLOS TABLAS*/
+
+/* Estilos de etiqueta*/
+table {
+  background: white;
+  width: 95%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th {
+  background-color: #3498db;
+  height: 35px;
+  border-bottom: 1px solid rgb(210, 220, 250);
+  color: white;
+    font-weight: 600;
+}
+
+td {
+  color: rgba(100, 100, 100, 60);
+  height: 30px;
+  border: 0.5px solid rgba(240, 240, 240, 10);
+}
+
+tfoot {
+  font-weight: bold;
+}
+
+/*Pseudo-clases*/
+th:hover {
+  background-color: rgba(20, 20, 20, 90);
+}
+
+tr:hover {
+  background-color: #3498db;
+}
+
+/* Estililos de clases*/
+.PrecioTotal:hover,
+.CantidadTotal:hover {
+  color: rgb(230, 50, 50);
+}
+
+.Cabecera {
+  background-color: rgba(5, 5, 100, 0.99);
+  border-radius: 4px;
+  height: 30px;
+  padding: 2em;
+  margin: 0 25%;
+  text-align: center;
+  color: white;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 14pt;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+}
+
+/*ESTYLOS TABLAS FIN*/
+
+
+
+.titulo_boton {
+  padding:5px;  
+  background-color:#e6e6e6;
+  width:400px;
+  font-family:helvetica; 
+  font-size:16px;
+  font-weight:bold; 
+}
+.boton_mostrar {
+  background: #417CCA;
+    width: 100%;
+    display: block;  
+  font-size:12px;
+  line-height:20px;
+  color:white;
+    padding: 10px;
+    font-size:15px;
+    font-weight: 600;
+    
+}
+#contenido{ 
+  clear:both;
+  border:2px solid transparent;
+  margin-top:2px;
+  padding:5px;
+  width:100%;
+  overflow:auto;
+  font-family:helvetica;
+  font-size:14px;
+  text-align: justify;
+}
+
+/* Ventana Emergente*/
+
+.buton-gtx1354{
+    
+    margin-left: 20px;
+    background: white;
+    width: 200px; 
+    border: solid 2px #3498db;
+    padding: 5px;
+    color: #3498db;
+    font-weight: 600;
+    border-radius: 5px;
+
+    
+}
+
+
+.Flotante-link{
+    color: #3498db;
+    margin-left: 20px;
+    border: solid 1px #3498db;
+    padding: 2px 20px 2px 20px;
+    border-radius: 5px;
+    
+}
+.ventana{
+  background-color:white;
+  width:300px;
+  padding: 10px 20px;
+  margin: 20% auto;
+  position: relative;
+}
+.modal{
+  background-color: rgba(0,0,0,.8);
+  position:fixed;
+  top:-250px;
+  right:0;
+  bottom:0;
+  left:0;
+  opacity:0;
+  pointer-events:none;
+  transition: all 1s;
+}
+#IrVentanaFlotante:target{
+  opacity:1;
+  pointer-events:auto;
+}
+
+
+
+/*FIN Ventana Emergente*/
+
+
+    
